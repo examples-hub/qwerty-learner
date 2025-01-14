@@ -1,4 +1,4 @@
-#  Qwerty Learner
+# Qwerty Learner
 
 <p align="center">
   <a href="./docs/README_EN.md">English</a>  

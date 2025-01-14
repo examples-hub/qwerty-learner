@@ -2,6 +2,7 @@ import logo from '@/assets/logo.svg'
 import type { PropsWithChildren } from 'react'
 import type React from 'react'
 import { NavLink } from 'react-router-dom'
+import FocusButton from '@/components/FocusButton'
 
 const Header: React.FC<PropsWithChildren> = ({ children }) => {
   return (
@@ -16,6 +17,7 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => {
         </NavLink>
         <nav className="my-card on element flex w-auto content-center items-center justify-end space-x-3 rounded-xl bg-white p-4 transition-colors duration-300 dark:bg-gray-800">
           {children}
+          <FocusButton />
         </nav>
       </div>
     </header>

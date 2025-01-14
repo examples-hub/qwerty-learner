@@ -3,6 +3,8 @@ import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 import type { RESET } from 'jotai/vanilla/utils/constants'
 
+export const focusModeAtom = atomWithStorage('focusMode', false)
+
 type SetStateActionWithReset<Value> = Value | typeof RESET | ((prev: Value) => Value | typeof RESET)
 
 export default function atomForConfig<T extends Record<string, unknown>>(
