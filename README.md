@@ -1,10 +1,4 @@
-<div align=center>
-<img  src="src/assets/logo.svg"/>
-</div>
-
-<h1 align="center">
-  Qwerty Learner
-</h1>
+#  Qwerty Learner
 
 <p align="center">
   <a href="./docs/README_EN.md">English</a>  
