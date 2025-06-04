@@ -34,3 +34,41 @@ stats.html
 /blob-report/
 /playwright/.cache/
 playwright-report
+
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Tauri/Rust
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# TypeScript
+*.tsbuildinfo
+.tsbuildinfo
+
+# OS generated files
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+dist-ssr
+
+# Log files
+logs
+*.log
